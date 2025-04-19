@@ -24,7 +24,7 @@ import {
   HarmBlockThreshold,
 } from "@google/generative-ai";
 const MODEL_NAME = "gemini-1.0-pro";
-const API_KEY = "AIzaSyAPmDX_93NOs7rZuaIl4OkQKi0GQgrWf2I";
+const API_KEY = import.meta.env.VITE_NEXT_PUBLIC_API_KEY;
 
 // run();
 // Define the language grammar for your custom language

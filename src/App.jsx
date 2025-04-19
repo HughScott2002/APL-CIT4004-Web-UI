@@ -7,8 +7,6 @@ import Roadmap from "./components/Roadmap";
 import Acknowledgements from "./components/Acknowledgements";
 import CodeEditor from "./components/Editor";
 import Teams from "./components/Team";
-// import { Toaster } from "@/components/ui/sonner";
-// import { toast } from "sonner";
 
 const App = () => {
   return (
